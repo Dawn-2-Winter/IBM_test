@@ -49,9 +49,7 @@ def process(shops, requests):
 
     return True
 
-shops = ['XL', 'L', 'XXS', 'M', 'XXS']
-requests = ['XXXL', 'M', 'L', 'XXS']
-if process(shops, requests):
+if process(shop_str, request_str):
     print("Yes")
 else:
     print("No")
